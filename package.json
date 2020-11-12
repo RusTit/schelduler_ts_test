@@ -1,0 +1,39 @@
+{
+  "name": "schelduler_ts_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc --build tsconfig.json",
+    "prestart": "npm run build",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusTit/schelduler_ts_test.git"
+  },
+  "keywords": [],
+  "author": "Russkih Anatoly <titanofdarkness@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RusTit/schelduler_ts_test/issues"
+  },
+  "homepage": "https://github.com/RusTit/schelduler_ts_test#readme",
+  "dependencies": {
+    "@types/node": "^14.14.7",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
+    "prettier": "^2.1.2"
+  }
+}
